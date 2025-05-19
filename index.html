@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingreso a la Academia Jedi</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="form-container">
+    <div class="logo">
+      <img src="./assets/star-wars-2.svg" alt="Logo de la Academia Jedi" />
+    </div>
+    <h1>Ingreso a la Academia Jedi</h1>
+    <form>
+      <label for="nombre">Nombre del Aprendiz</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre aquí" required>
+
+      <label for="especie">Especie</label>
+      <select id="especie" name="especie" required>
+        <option value="">Selecciona tu especie</option>
+        <option value="humano">Humano</option>
+        <option value="twi'lek">Twi'lek</option>
+        <option value="zabrak">Zabrak</option>
+        <option value="trandoshano">Trandoshano</option>
+        <option value="togruta">Togruta</option>
+        <option value="wookiee">Wookiee</option>
+      </select>
+
+      <label for="edad">Edad</label>
+      <input type="number" id="edad" name="edad" placeholder="Introduce tu edad" min="1" max="120" required>
+
+      <label for="planeta">Planeta de Origen</label>
+      <input type="text" id="planeta" name="planeta" placeholder="Introduce tu planeta de origen" required>
+
+      <fieldset>
+        <legend>Nivel de Conexión con la Fuerza</legend>
+        <div class="radio-group">
+          <label><input type="radio" name="fuerza" value="bajo" required> Bajo</label>
+          <label><input type="radio" name="fuerza" value="medio"> Medio</label>
+          <label><input type="radio" name="fuerza" value="alto"> Alto</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Selección de Sables de Luz Preferidos</legend>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="sable" value="azul"> Azul</label>
+          <label><input type="checkbox" name="sable" value="verde"> Verde</label>
+          <label><input type="checkbox" name="sable" value="morado"> Morado</label>
+          <label><input type="checkbox" name="sable" value="rojo"> Rojo</label>
+          <label><input type="checkbox" name="sable" value="doble"> Doble hoja</label>
+        </div>
+      </fieldset>
+
+      <label for="comentarios">Comentarios Adicionales</label>
+      <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tus comentarios aquí…"></textarea>
+
+      <button type="submit" class="submit-button">Enviar solicitud al Consejo Jedi</button>
+    </form>
+    <footer>
+      El camino del aprendiz empieza con un clic…
+    </footer>
+  </div>
+</body>
+</html>
+
