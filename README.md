@@ -78,3 +78,6 @@ El diseño prioriza la visualización móvil, adaptándose progresivamente a pan
 
 ¡Que la Fuerza esté contigo en este y todos tus proyectos digitales! 🌌
 Link de la previsualización : **https://www.figma.com/design/JY0q9iHoqYWFUQHaSKc4Z3/StarWars?node-id=22-2&t=b8RWaL4AZtcETtgK-1**
+
+Jesus torres 192463
+Andres arrieta 192452

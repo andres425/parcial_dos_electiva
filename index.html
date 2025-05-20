@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,21 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div class="form-container">
+    <div class="header">
     <div class="logo">
       <img src="./assets/star-wars-2.svg" alt="Logo de la Academia Jedi" />
+   
+    <div class="encabezado">
+      <h1>Academia Jedi</h1>
+      <h3>Que la fuerza te acompañe!</h3>
     </div>
-    <h1>Ingreso a la Academia Jedi</h1>
-    <form>
+ </div>
+ </div>
+
+    <form class="register-form">
       <label for="nombre">Nombre del Aprendiz</label>
       <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre aquí" required>
 
@@ -60,9 +69,10 @@
       <button type="submit" class="submit-button">Enviar solicitud al Consejo Jedi</button>
     </form>
     <footer>
-      El camino del aprendiz empieza con un clic…
+   <span>Nota</span>
+     Bienvenido a tu nuevo camino
     </footer>
   </div>
 </body>
-</html>
 
+</html>
